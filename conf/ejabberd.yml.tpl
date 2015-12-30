@@ -255,7 +255,7 @@ modules:
   mod_pubsub:
     access_createnode: pubsub_createnode
     ## reduces resource comsumption, but XEP incompliant
-    ignore_pep_from_offline: true
+    ignore_pep_from_offline: false
     ## XEP compliant, but increases resource comsumption
     ## ignore_pep_from_offline: false
     last_item_cache: false
